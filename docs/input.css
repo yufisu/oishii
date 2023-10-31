@@ -27,7 +27,7 @@
   font-size: 14px;
 }
 .main-section{
-  background-image: url("/src/oishii.jpg");
+  background-image: url("/docs/oishii.jpg");
   background-size: cover;
   background-position: center;
   filter: brightness(.80);
