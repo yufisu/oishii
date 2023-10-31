@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Grotesk";
+  src: url("../fonts/founders-grotesk.otf");
+}
+@font-face {
+  font-family: "Tiempo";
+  src: url("../fonts/TiemposHeadline-Regular.otf");
+}
+@font-face {
+  font-family: "Test Grotesk";
+  src: url("../fonts/TestFoundersGroteskText-Regular.otf");
+}
+.nav-mid{
+  font-family: "Tiempo";
+  font-size: 40px;
+}
+.nav-right{
+  font-family: "Test Grotesk";
+  font-size: 14px;
+}
+.nav-left{
+  font-family: "Test Grotesk";
+  font-size: 14px;
+}
+.main-section{
+  background-image: url("/src/oishii.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(.80);
+}
+.nav-main{
+  filter: brightness(2);
+}
+.section-text{
+  filter: brightness(2);
+
+}
