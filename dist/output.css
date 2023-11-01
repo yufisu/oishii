@@ -534,10 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.relative {
-  position: relative;
-}
-
 .sticky {
   position: sticky;
 }
@@ -546,8 +542,37 @@ video {
   top: 0px;
 }
 
-.ml-14 {
-  margin-left: 3.5rem;
+.mx-24 {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-12 {
+  margin-left: 3rem;
+}
+
+.ml-32 {
+  margin-left: 8rem;
 }
 
 .ml-8 {
@@ -562,6 +587,26 @@ video {
   margin-right: 0.5rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -574,13 +619,25 @@ video {
   height: 77vh;
 }
 
+.h-\[800px\] {
+  height: 800px;
+}
+
 .w-3 {
   width: 0.75rem;
+}
+
+.w-96 {
+  width: 24rem;
 }
 
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.max-w-lg {
+  max-width: 32rem;
 }
 
 .flex-1 {
@@ -597,6 +654,10 @@ video {
 
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .justify-around {
@@ -624,6 +685,21 @@ video {
   background-color: transparent;
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -634,6 +710,14 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.pl-12 {
+  padding-left: 3rem;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -642,13 +726,61 @@ video {
   font-family: 'Tiempo';
 }
 
-.text-\[50px\] {
-  font-size: 50px;
+.text-\[14px\] {
+  font-size: 14px;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[32px\] {
+  font-size: 32px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
+}
+
+.leading-\[50px\] {
+  line-height: 50px;
+}
+
+.tracking-tighter {
+  letter-spacing: -0.05em;
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.decoration-red-500 {
+  text-decoration-color: #ef4444;
+}
+
+.underline-offset-8 {
+  text-underline-offset: 8px;
+}
+
+.underline-offset-\[9px\] {
+  text-underline-offset: 9px;
 }
 
 @font-face {
@@ -660,13 +792,13 @@ video {
 @font-face {
   font-family: "Tiempo";
 
-  src: url("../fonts/TiemposHeadline-Regular.otf");
+  src: url("../fonts/TestTiemposHeadline-Light.otf");
 }
 
 @font-face {
   font-family: "Test Grotesk";
 
-  src: url("../fonts/TestFoundersGroteskText-Regular.otf");
+  src: url("../fonts/TestFoundersGroteskText-Light.otf");
 }
 
 .nav-mid{
@@ -676,25 +808,47 @@ video {
 
 .nav-right{
   font-family: "Test Grotesk";
-  font-size: 14px;
 }
 
 .nav-left{
   font-family: "Test Grotesk";
-  font-size: 14px;
 }
 
 .main-section{
-  background-image: url("/src/oishii.jpg");
+  background-image: url("https://oishii.com/cdn/shop/files/IMG_3351_extended_1_2_2160x.jpg?v=1694545735");
   background-size: cover;
   background-position: center;
   filter: brightness(.80);
 }
 
-.nav-main{
-  filter: brightness(2);
+.section-text{
+  filter:brightness(3)
 }
 
-.section-text{
-  filter: brightness(2);
+.section-p{
+  font-family: "Test Grotesk";
+}
+
+.section-find-us{
+  font-family: "Test Grotesk";
+}
+
+.left-top-text{
+  font-family: "Test Grotesk";
+}
+
+.left-title{
+  font-family: "Tiempo";
+}
+
+.left-p-text{
+  font-family: "Test Grotesk";
+}
+
+.right-text{
+  font-family: "Tiempo";
+}
+
+.right-bottom-text{
+  font-family: "Test Grotesk";
 }
