@@ -8,11 +8,11 @@
 }
 @font-face {
   font-family: "Tiempo";
-  src: url("../fonts/TiemposHeadline-Regular.otf");
+  src: url("../fonts/TestTiemposHeadline-Light.otf");
 }
 @font-face {
   font-family: "Test Grotesk";
-  src: url("../fonts/TestFoundersGroteskText-Regular.otf");
+  src: url("../fonts/TestFoundersGroteskText-Light.otf");
 }
 .nav-mid{
   font-family: "Tiempo";
@@ -20,21 +20,37 @@
 }
 .nav-right{
   font-family: "Test Grotesk";
-  font-size: 14px;
 }
 .nav-left{
   font-family: "Test Grotesk";
-  font-size: 14px;
 }
 .main-section{
-  background-image: url("/docs/oishii.jpg");
+  background-image: url("https://oishii.com/cdn/shop/files/IMG_3351_extended_1_2_2160x.jpg?v=1694545735");
   background-size: cover;
   background-position: center;
   filter: brightness(.80);
 }
-.nav-main{
-  filter: brightness(2);
-}
 .section-text{
-  filter: brightness(2);
+  filter:brightness(3)
+}
+.section-p{
+  font-family: "Test Grotesk";
+}
+.section-find-us{
+  font-family: "Test Grotesk";
+}
+.left-top-text{
+  font-family: "Test Grotesk";
+}
+.left-title{
+  font-family: "Tiempo";
+}
+.left-p-text{
+  font-family: "Test Grotesk";
+}
+.right-text{
+  font-family: "Tiempo";
+}
+.right-bottom-text{
+  font-family: "Test Grotesk";
 }
